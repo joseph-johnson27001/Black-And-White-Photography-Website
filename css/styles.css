@@ -1,0 +1,59 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* NAVIGATION */
+
+#navigation-container {
+    max-width: none;
+}
+.navbar {
+  width: 100%;
+}
+
+#logo {
+  font-family: 'Dancing Script', cursive;
+}
+
+.fixed-position {
+  position: fixed;
+  z-index: 1000;
+}
+
+/* MAIN AREA */
+
+.main-area {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/Huangshan_Mountain_BW.jpg");
+  background-size: cover;
+  background-position: 65% 60%;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  color: white;
+  font-weight: 400;
+}
+
+.fade {
+  animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  animation-duration: 1.5s;
+}
+
+
+/* Keyframes */
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
