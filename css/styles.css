@@ -1,8 +1,16 @@
+/* ------------------------------- */
+/* BODY */
+/* ------------------------------- */
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
 
+
+
+/* ------------------------------- */
 /* NAVIGATION */
+/* ------------------------------- */
 
 #navigation-container {
     max-width: none;
@@ -11,16 +19,21 @@ body {
   width: 100%;
 }
 
+
 #logo {
   font-family: 'Dancing Script', cursive;
 }
+
+
 
 .fixed-position {
   position: fixed;
   z-index: 1000;
 }
 
-/* MAIN AREA */
+/* ------------------------------- */
+/* MAIN */
+/* ------------------------------- */
 
 .main-area {
   width: 100%;
@@ -32,11 +45,17 @@ body {
   padding: 0;
 }
 
+#heading-container {
+  margin-bottom: 150px;
+}
+
 h1 {
   font-family: 'Dancing Script', cursive;
   color: white;
   font-weight: 400;
+  text-align: center;
 }
+
 
 .fade {
   animation-name: fadeInOpacity;
@@ -46,8 +65,15 @@ h1 {
   animation-duration: 1.5s;
 }
 
+hr {
+  color: white;
+  width: 300px;
+  float: left;
+}
 
-/* Keyframes */
+/* ------------------------------- */
+/* KEY FRAMES & ANIMATIONS */
+/* ------------------------------- */
 
 @keyframes fadeInOpacity {
 	0% {
