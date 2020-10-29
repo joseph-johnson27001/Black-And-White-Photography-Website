@@ -1,0 +1,32 @@
+body {
+  font-family: 'Dancing Script', cursive;
+}
+
+
+h1 {
+    padding: 10px;
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    text-align: center;
+}
+
+h2,
+h3,
+p
+#h2_title {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  color: white;
+}
+
+#logo {
+  font-family: 'Dancing Script', cursive;
+}
+
+#photo_area {
+  max-width: 1200px;
+  height: 500px;
+  background-image: url("../images/hand_holding_camera2.jpg");
+  background-position: 50%;
+  margin: auto;
+}
